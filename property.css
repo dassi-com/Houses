@@ -1,0 +1,121 @@
+/*HEADER-TOP-SECTION*/
+header {
+  position: relative;
+  /*NAVIGATION*/
+}
+header .header-top-section {
+  background-color: #090935;
+}
+header .header-top-section .top-content {
+  display: flex;
+  justify-content: space-between;
+  /*MEDIA QUERY*/
+}
+@media (max-width: 850px) {
+  header .header-top-section .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+  }
+}
+header .header-top-section .top-content .top-bar-menu {
+  padding: 10px;
+}
+header .header-top-section .top-content .top-bar-menu a {
+  text-decoration: none;
+  color: aliceblue;
+}
+header .header-top-section .top-content .top-bar-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+header .header-top-section .top-content .top-bar-right button {
+  background-color: #ff4500;
+  padding: 10px;
+  border: none;
+  width: 120px;
+  color: aliceblue;
+}
+header nav {
+  /*NAVBAR-NAV*/
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header nav .logo h2 {
+  color: #090935;
+}
+header nav .navigation-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav p {
+  box-shadow: 0 5px 10px 0 rgba(224, 213, 224, 0.2), 0 7px 21px 0 rgba(24, 5, 24, 0.2);
+  padding: 10px;
+}
+header nav .navbar-nav .nav-item a {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0);
+}
+header nav .dropdown .dropdown-menu {
+  border-top: 5px solid #ff4500;
+  border-radius: 0px;
+  padding: 20px;
+}
+header nav .dropdown .dropdown-menu a {
+  color: #808080;
+}
+header nav .dropdown .dropdown-menu button {
+  background-color: #ff4500;
+  border-radius: 2px;
+  color: #f0f8ff;
+  font-size: 12px;
+  border: none;
+}
+
+/*showcase*/
+.showcase-section {
+  background-image: url(images/mai23.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.showcase-section .content {
+  padding: 100px 0 100px;
+}
+.showcase-section .content .showcase .links {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  flex-direction: row;
+}
+.showcase-section .content .showcase .links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #090935;
+}
+.showcase-section .content .showcase .links .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+/*INFORMATION-SECTION*/
+.information-section .information-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.information-section .information-content .apartement-sort {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=property.css.map */
